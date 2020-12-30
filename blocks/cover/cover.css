@@ -1,0 +1,57 @@
+.cover {
+display: flex;
+flex-direction: column;
+position: relative;
+max-width: 1184px;
+max-height: 594px;
+overflow: hidden;
+object-fit: contain;
+width: 100%;
+background-image: url(../../images/cover.jpg);
+background-size: 100% 100%;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;    
+}
+.cover:hover::before {
+       background-color: rgba(0,0,0,0.8);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+        width: 100%;
+        height: auto;     
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .cover {
+        max-width: 768px;
+        max-height: 500px;
+        object-fit: cover;  
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 766px){
+    .cover  {
+       max-width: 375px;
+       max-height: 272px;
+       object-fit: cover;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .cover {
+    
+      max-width: 320px;
+      height: 216px;
+       object-fit: cover;     
+    }
+}

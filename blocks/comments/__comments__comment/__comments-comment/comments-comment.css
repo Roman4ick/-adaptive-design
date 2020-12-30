@@ -1,0 +1,32 @@
+.comments-comment {
+max-width: 382px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .comments-comment {
+       max-width: 296px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .comments-comment {
+        display: flex;
+        flex-direction: column;
+       max-width: 382px;
+       font-size: 16px;
+       line-height: 23px;
+    }
+}    
+@media screen and (min-width: 375px) and (max-width: 766px){
+   .comments-comment {
+       max-width: 343px;
+       display: flex;
+       flex-direction: column;
+       
+    }
+}   
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .comments-comment {
+      max-width: 288px; 
+      display: flex;
+      flex-direction: column;      
+    }
+}

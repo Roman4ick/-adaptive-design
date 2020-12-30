@@ -1,0 +1,24 @@
+.comments-comment__image {
+max-width: 97px;
+max-height: 97px;
+border-radius: 50px;
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .comments-comment__image {
+        align-self: center;
+        order: -1;
+    }
+}  
+@media screen and (min-width: 375px) and (max-width: 766px){
+    .comments-comment__image {
+        align-self: center;
+        order: -1;
+     }
+}  
+ @media screen and (min-width: 320px) and (max-width: 374px){
+    .comments-comment__image {
+        align-self: center;
+        order: -1;
+    }
+}

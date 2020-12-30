@@ -1,0 +1,8 @@
+.video_form {
+    margin-top: 102px;
+}
+@media screen and (min-width: 375px) and (max-width: 766px){
+    .video_form {
+        margin-top: 64px;
+    }
+}

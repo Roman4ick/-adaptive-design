@@ -1,0 +1,30 @@
+.lead__image {
+margin-top: 78px;
+max-width: 984px;
+height: auto;
+}
+.lead__image:hover {
+    opacity: 0.5;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead__image {
+        margin-top: 78px;
+        max-width: 768px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 766px){
+    .lead__image {
+      max-width: 375px;
+      width: 100%;
+      height: auto;
+      margin-top: 31px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .lead__image {
+      max-width: 320px; 
+      height: auto;   
+      margin: 0; 
+      margin-top: 32px;
+    }
+}
